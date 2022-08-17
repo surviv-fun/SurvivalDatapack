@@ -16,6 +16,7 @@ const zipperError = (err) => {
 const archive = new ZL.Zip();
 
 archive.addFile('./README.md');
+archive.addFile('./pack.png');
 archive.addFile('./pack.mcmeta');
 archive.addFolder('./data', 'data');
 
