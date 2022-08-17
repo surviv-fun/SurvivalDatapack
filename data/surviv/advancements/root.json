@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "surviv-advancements advancement tree",
+        "description": "Hier gibt es viele weitere Herausforderungen zu meistern.",
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "background": "minecraft:textures/block/cobblestone.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

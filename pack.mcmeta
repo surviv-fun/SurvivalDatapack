@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "pack_format": 10,
+        "description": [
+            { "text": "surviv.fun Datapack by ", "color": "gray" },
+            { "text": "LuciferMorningstarDev", "color": "dark_aqua" }
+        ]
+    }
+}

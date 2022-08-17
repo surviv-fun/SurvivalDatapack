@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Installed Datapacks",
+        "description": "Hier kannst du nähere infos über Datapacks sehen.",
+        "icon": {
+            "item": "minecraft:knowledge_book"
+        },
+        "background": "minecraft:textures/block/gray_concrete.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

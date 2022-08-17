@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": "Advancements addon [surviv-advancements]",
+        "description": [
+            { "text": "Neue Challenges für ", "color": "gray" },
+            { "text": "Advancement Jäger", "color": "gold" }
+        ],
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:surviv",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

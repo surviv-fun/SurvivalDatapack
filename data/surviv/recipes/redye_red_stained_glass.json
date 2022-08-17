@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "stained_glass",
+    "ingredients": [
+        {
+            "tag": "kevr:colored_glass"
+        },
+        {
+            "item": "minecraft:red_dye"
+        }
+    ],
+    "result": {
+        "item": "minecraft:red_stained_glass",
+        "count": 1
+    }
+}

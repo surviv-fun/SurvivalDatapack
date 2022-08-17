@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": "surviv.fun",
+        "description": [
+            { "text": "surviv.fun Datapack by ", "color": "gray" },
+            { "text": "LuciferMorningstarDev", "color": "dark_aqua" }
+        ],
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: '_Lucifer_1234_'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

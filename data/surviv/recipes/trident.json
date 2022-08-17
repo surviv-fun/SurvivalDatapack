@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": ["#x#", "#_#", " _ "],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "_": {
+            "item": "minecraft:stick"
+        },
+        "x": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:trident",
+        "count": 1
+    }
+}
