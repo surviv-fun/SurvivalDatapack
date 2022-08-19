@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spyglass"
+        },
+        "title": "Peeping Tom",
+        "description": "Nutze ein Fernglas und beobachte einen anderen Spieler.",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/spyglass_at_dragon",
+    "criteria": {
+        "spyglass_at_parrot": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "looking_at": {
+                                    "type": "minecraft:player"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": ["minecraft:spyglass"]
+                }
+            }
+        }
+    }
+}

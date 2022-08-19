@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": "10 Hardness Rating",
+        "description": "Erwirb ein komplettes Set Diamant Rüstung.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/iron",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:diamond_helmet"]
+                    },
+                    {
+                        "items": ["minecraft:diamond_chestplate"]
+                    },
+                    {
+                        "items": ["minecraft:diamond_leggings"]
+                    },
+                    {
+                        "items": ["minecraft:diamond_boots"]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "title": "Performe eine Fassrolle!",
+        "description": "Nutze einen riptide Dreizack.",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/very_very_frightening",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:trident"],
+                    "enchantments": [
+                        {
+                            "enchantment": "minecraft:riptide"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

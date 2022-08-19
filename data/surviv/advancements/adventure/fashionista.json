@@ -1,0 +1,98 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "title": "Fashionista",
+        "description": "Habe jegliche Rüstungssets in deinem Inventar.",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "minecraft:adventure/hardness",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:leather_helmet"]
+                    },
+                    {
+                        "items": ["minecraft:leather_chestplate"]
+                    },
+                    {
+                        "items": ["minecraft:leather_leggings"]
+                    },
+                    {
+                        "items": ["minecraft:leather_boots"]
+                    },
+                    {
+                        "items": ["minecraft:chainmail_helmet"]
+                    },
+                    {
+                        "items": ["minecraft:chainmail_chestplate"]
+                    },
+                    {
+                        "items": ["minecraft:chainmail_leggings"]
+                    },
+                    {
+                        "items": ["minecraft:chainmail_boots"]
+                    },
+                    {
+                        "items": ["minecraft:golden_helmet"]
+                    },
+                    {
+                        "items": ["minecraft:golden_chestplate"]
+                    },
+                    {
+                        "items": ["minecraft:golden_leggings"]
+                    },
+                    {
+                        "items": ["minecraft:golden_boots"]
+                    },
+                    {
+                        "items": ["minecraft:iron_helmet"]
+                    },
+                    {
+                        "items": ["minecraft:iron_chestplate"]
+                    },
+                    {
+                        "items": ["minecraft:iron_leggings"]
+                    },
+                    {
+                        "items": ["minecraft:iron_boots"]
+                    },
+                    {
+                        "items": ["minecraft:diamond_helmet"]
+                    },
+                    {
+                        "items": ["minecraft:diamond_chestplate"]
+                    },
+                    {
+                        "items": ["minecraft:diamond_leggings"]
+                    },
+                    {
+                        "items": ["minecraft:diamond_boots"]
+                    },
+                    {
+                        "items": ["minecraft:netherite_helmet"]
+                    },
+                    {
+                        "items": ["minecraft:netherite_chestplate"]
+                    },
+                    {
+                        "items": ["minecraft:netherite_leggings"]
+                    },
+                    {
+                        "items": ["minecraft:netherite_boots"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50
+    }
+}

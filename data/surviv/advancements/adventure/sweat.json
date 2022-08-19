@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_helmet"
+        },
+        "title": "Sweat Shop",
+        "description": "Erwirb ein komplettes Set Lederrüstung.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:leather_helmet"]
+                    },
+                    {
+                        "items": ["minecraft:leather_chestplate"]
+                    },
+                    {
+                        "items": ["minecraft:leather_leggings"]
+                    },
+                    {
+                        "items": ["minecraft:leather_boots"]
+                    }
+                ]
+            }
+        }
+    }
+}

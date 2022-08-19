@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_chestplate"
+        },
+        "title": "Midas Walks!",
+        "description": "Erwirb ein komplettes Set an Gold Rpstung.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/iron",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:golden_helmet"]
+                    },
+                    {
+                        "items": ["minecraft:golden_chestplate"]
+                    },
+                    {
+                        "items": ["minecraft:golden_leggings"]
+                    },
+                    {
+                        "items": ["minecraft:golden_boots"]
+                    }
+                ]
+            }
+        }
+    }
+}

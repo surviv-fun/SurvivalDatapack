@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gunpowder"
+        },
+        "title": "Aw Mann!",
+        "description": "Töte einen Creeper.",
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/kill_a_mob",
+    "criteria": {
+        "kill creeper": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:creeper"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sculk_shrieker"
+        },
+        "title": "Prison Break",
+        "description": "Töte einen Warden.",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "minecraft:adventure/deepdark",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:warden"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 80
+    }
+}

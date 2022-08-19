@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "title": "The Lie",
+        "description": "Backe einen Kuchen.",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:husbandry/bread",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [],
+                "items": [
+                    {
+                        "items": ["minecraft:cake"]
+                    }
+                ]
+            }
+        }
+    }
+}

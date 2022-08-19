@@ -1,0 +1,108 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_chestplate",
+            "nbt": "{Enchantments:[{id:unbreaking,lvl:3}]}"
+        },
+        "title": "Hör endlich auf Gold zu nutzen!",
+        "description": "Enchante jedes Gold Tool und jede Gold Rüstung mit Haltbarkeit 3.",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/midas",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:golden_helmet"],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            }
+                        ]
+                    },
+                    {
+                        "items": ["minecraft:golden_chestplate"],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            }
+                        ]
+                    },
+                    {
+                        "items": ["minecraft:golden_leggings"],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            }
+                        ]
+                    },
+                    {
+                        "items": ["minecraft:golden_boots"],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            }
+                        ]
+                    },
+                    {
+                        "items": ["minecraft:golden_axe"],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            }
+                        ]
+                    },
+                    {
+                        "items": ["minecraft:golden_hoe"],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            }
+                        ]
+                    },
+                    {
+                        "items": ["minecraft:golden_pickaxe"],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            }
+                        ]
+                    },
+                    {
+                        "items": ["minecraft:golden_shovel"],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            }
+                        ]
+                    },
+                    {
+                        "items": ["minecraft:golden_sword"],
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50
+    }
+}

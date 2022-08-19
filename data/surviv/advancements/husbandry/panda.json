@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bamboo"
+        },
+        "title": "Zoologist",
+        "description": "Vermehre zwei Pandas mit bambus.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:husbandry/breed_an_animal",
+    "criteria": {
+        "bred": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "parent": {
+                    "type": "minecraft:panda"
+                },
+                "partner": {
+                    "type": "minecraft:panda"
+                },
+                "child": {
+                    "type": "minecraft:panda"
+                }
+            }
+        }
+    }
+}

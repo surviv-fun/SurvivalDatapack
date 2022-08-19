@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mojang_banner_pattern"
+        },
+        "title": "Fruit on the Loom",
+        "description": "Craft das Mojang banner pattern.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:mojang_banner_pattern"]
+                    }
+                ]
+            }
+        }
+    }
+}

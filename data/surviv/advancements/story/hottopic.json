@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:furnace"
+        },
+        "title": "Hot Topic",
+        "description": "Crafte einen Schmelzofen mit 8 cobblestone.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:story/mine_stone",
+    "criteria": {
+        "furnace": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:furnace"]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_pickaxe"
+        },
+        "title": "Was hab ich dir gesagt?",
+        "description": "Zerbrich ein goldenes Tool.",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "minecraft:adventure/stopgold",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": 0,
+                "item": {
+                    "items": ["minecraft:golden_helmet", "minecraft:golden_chestplate", "minecraft:golden_leggings", "minecraft:golden_boots", "minecraft:golden_axe", "minecraft:golden_hoe", "minecraft:golden_pickaxe", "minecraft:golden_shovel", "minecraft:golden_sword"]
+                }
+            }
+        }
+    }
+}

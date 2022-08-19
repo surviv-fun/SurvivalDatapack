@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "title": "Time to Strike!",
+        "description": "Crafte dir ein Holzschwert.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:story/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:wooden_sword"]
+                    }
+                ]
+            }
+        }
+    }
+}

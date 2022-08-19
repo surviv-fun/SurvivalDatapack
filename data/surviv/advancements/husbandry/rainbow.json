@@ -1,0 +1,71 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_wool"
+        },
+        "title": "Rainbow Collection",
+        "description": "Sammle alle 16 verschieden farbigen Wollblöcke.",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:husbandry/shears",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:red_wool"]
+                    },
+                    {
+                        "items": ["minecraft:orange_wool"]
+                    },
+                    {
+                        "items": ["minecraft:yellow_wool"]
+                    },
+                    {
+                        "items": ["minecraft:lime_wool"]
+                    },
+                    {
+                        "items": ["minecraft:green_wool"]
+                    },
+                    {
+                        "items": ["minecraft:light_blue_wool"]
+                    },
+                    {
+                        "items": ["minecraft:cyan_wool"]
+                    },
+                    {
+                        "items": ["minecraft:blue_wool"]
+                    },
+                    {
+                        "items": ["minecraft:pink_wool"]
+                    },
+                    {
+                        "items": ["minecraft:magenta_wool"]
+                    },
+                    {
+                        "items": ["minecraft:purple_wool"]
+                    },
+                    {
+                        "items": ["minecraft:white_wool"]
+                    },
+                    {
+                        "items": ["minecraft:light_gray_wool"]
+                    },
+                    {
+                        "items": ["minecraft:gray_wool"]
+                    },
+                    {
+                        "items": ["minecraft:black_wool"]
+                    },
+                    {
+                        "items": ["minecraft:brown_wool"]
+                    }
+                ]
+            }
+        }
+    }
+}
