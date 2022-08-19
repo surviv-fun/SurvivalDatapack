@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Daily Quest",
+        "frame": "goal",
+        "description": [
+            { "text": "Du bekommst eine ", "color": "gray" },
+            { "text": "\"Daily Quest\" ", "color": "dark_red" },
+            { "text": "jeden Minecraft Tag", "color": "gray" }
+        ],
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "surviv:a_joined",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

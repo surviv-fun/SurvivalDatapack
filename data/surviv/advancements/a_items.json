@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": "Items",
+        "frame": "goal",
+        "description": [
+            { "text": "Challenges: ", "color": "gray" },
+            { "text": "Items", "color": "gold" }
+        ],
+        "icon": {
+            "item": "minecraft:glass_bottle"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "surviv:a_joined",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

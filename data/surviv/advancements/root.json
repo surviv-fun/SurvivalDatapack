@@ -1,9 +1,13 @@
 {
     "display": {
-        "title": "surviv-advancements advancement tree",
-        "description": "Hier gibt es viele weitere Herausforderungen zu meistern.",
+        "title": "Surviv.Fun Advancements",
+        "description": [
+            { "text": "Hier gibt es viele weitere ", "color": "gray" },
+            { "text": "Herausforderungen ", "color": "gold" },
+            { "text": "zu meistern.", "color": "gray" }
+        ],
         "icon": {
-            "item": "minecraft:barrier"
+            "item": "minecraft:raw_gold_block"
         },
         "background": "minecraft:textures/block/cobblestone.png",
         "show_toast": false,

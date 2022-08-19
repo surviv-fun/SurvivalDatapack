@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": "Recipe Addon",
+        "description": [
+            { "text": "Neue Rezepte für die einfachere ", "color": "gray" },
+            { "text": "Handhabung des Craftings", "color": "gold" }
+        ],
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:surviv",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

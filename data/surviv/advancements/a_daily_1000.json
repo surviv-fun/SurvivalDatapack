@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Daily [Verrückter]",
+        "frame": "challenge",
+        "description": [
+            { "text": "1000 ", "color": "gray" },
+            { "text": "Daily Quests", "color": "gold" },
+            { "text": " - du bist echt verrückt...", "color": "gray" }
+        ],
+        "icon": {
+            "item": "minecraft:black_concrete"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": true
+    },
+    "parent": "surviv:a_daily_100",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,12 +1,12 @@
 {
     "display": {
-        "title": "Advancements addon [surviv-advancements]",
+        "title": "Loot Addon",
         "description": [
-            { "text": "Neue Challenges für ", "color": "gray" },
-            { "text": "Advancement Jäger", "color": "gold" }
+            { "text": "Neuer und verbesserter Loot für ", "color": "gray" },
+            { "text": "Kisten und Mobs", "color": "gold" }
         ],
         "icon": {
-            "item": "minecraft:barrier"
+            "item": "minecraft:chest"
         },
         "announce_to_chat": false,
         "show_toast": false

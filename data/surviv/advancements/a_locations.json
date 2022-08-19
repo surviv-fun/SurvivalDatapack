@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": "Locations",
+        "frame": "goal",
+        "description": [
+            { "text": "Challenges: ", "color": "gray" },
+            { "text": "Locations", "color": "blue" }
+        ],
+        "icon": {
+            "item": "minecraft:structure_block"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "surviv:a_joined",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

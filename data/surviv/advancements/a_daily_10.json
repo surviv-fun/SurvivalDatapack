@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Daily [Sucher]",
+        "frame": "task",
+        "description": [
+            { "text": "10 ", "color": "gray" },
+            { "text": "Daily Quests", "color": "dark_red" }
+        ],
+        "icon": {
+            "item": "minecraft:green_concrete"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "surviv:a_daily",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

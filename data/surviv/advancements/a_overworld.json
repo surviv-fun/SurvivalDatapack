@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": "Overworld",
+        "frame": "goal",
+        "description": [
+            { "text": "Challenges: ", "color": "gray" },
+            { "text": "Overworld", "color": "dark_green" }
+        ],
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "surviv:a_locations",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

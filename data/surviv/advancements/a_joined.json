@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": "surviv.fun",
+        "frame": "challenge",
+        "description": [
+            { "text": "Herzlich Willkommen auf dem Server ", "color": "gray" },
+            { "text": "surviv.fun", "color": "dark_aqua" }
+        ],
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "surviv:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

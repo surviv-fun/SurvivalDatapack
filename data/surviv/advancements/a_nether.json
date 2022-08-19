@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": "Nether",
+        "frame": "goal",
+        "description": [
+            { "text": "Challenges: ", "color": "gray" },
+            { "text": "Nether", "color": "red" }
+        ],
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "surviv:a_locations",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "minecraft:the_nether"
+            }
+        }
+    }
+}

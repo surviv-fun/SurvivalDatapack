@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": "The End",
+        "frame": "goal",
+        "description": [
+            { "text": "Challenges: ", "color": "gray" },
+            { "text": "End", "color": "yellow" }
+        ],
+        "icon": {
+            "item": "minecraft:end_stone_bricks"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "surviv:a_locations",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "minecraft:the_end"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Daily [Sammler]",
+        "frame": "task",
+        "description": [
+            { "text": "25 ", "color": "gray" },
+            { "text": "Daily Quests", "color": "dark_red" }
+        ],
+        "icon": {
+            "item": "minecraft:yellow_concrete"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": false
+    },
+    "parent": "surviv:a_daily_10",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
