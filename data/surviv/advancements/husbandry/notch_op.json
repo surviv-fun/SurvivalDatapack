@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:enchanted_golden_apple"
         },
-        "title": "Weiss Notch dass du einen Stack seiner Äpfel hast?",
-        "description": "You OP+",
+        "title": "You OP+",
+        "description": "Weiss Notch dass du einen Stack seiner Äpfel hast?",
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
