@@ -1,0 +1,46 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_helmet"
+        },
+        "title": "IRON MAN",
+        "description": "Komplette Eisenrüstung",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/ruined_portal",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_helmet",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:iron_chestplate",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:iron_leggings",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:iron_boots",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:shield",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50
+    }
+}

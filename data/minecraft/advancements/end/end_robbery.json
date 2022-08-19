@@ -1,0 +1,66 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
+        "title": "End Diebstahl",
+        "description": "Bekomme alle Items aus dem End",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:end/plant_flower",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dragon_egg",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:chorus_fruit",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:end_stone",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:ender_chest",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:shulker_shell",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:eye_of_ender",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:elytra",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:purpur_block",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:purpur_slab",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:purpur_stairs",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 120
+    }
+}

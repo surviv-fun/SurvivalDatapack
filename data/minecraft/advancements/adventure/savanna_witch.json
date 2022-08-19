@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sand"
+        },
+        "title": "Savanna Hexe",
+        "description": "Töte eine Hexe in einem Savanna Biom",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "adventure/Titanic",
+    "criteria": {
+        "A": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "type": "player",
+                    "location": {
+                        "biome": "minecraft:savanna"
+                    }
+                },
+                "entity": {
+                    "type": "minecraft:witch",
+                    "location": {
+                        "biome": "minecraft:savanna"
+                    }
+                }
+            }
+        }
+    }
+}

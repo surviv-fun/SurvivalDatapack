@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "title": "Sniper Elite",
+        "description": "Töte ein skelett aus 180 Block Entfernung",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/root",
+    "rewards": {
+        "experience": 100
+    },
+    "criteria": {
+        "killed_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "type": "minecraft:skeleton",
+                            "distance": {
+                                "horizontal": {
+                                    "min": 180.0
+                                }
+                            }
+                        },
+                        "entity": "this"
+                    }
+                ],
+                "killing_blow": {
+                    "is_projectile": true
+                }
+            }
+        }
+    },
+    "requirements": [["killed_skeleton"]]
+}

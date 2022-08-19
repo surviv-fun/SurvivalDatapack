@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "title": "Langweiliges Dorf",
+        "description": "Finde ein Dorf in einem plains Biom",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/sleep_in_bed",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:plains",
+                    "feature": "village",
+                    "dimension": "minecraft:overworld"
+                }
+            }
+        }
+    }
+}

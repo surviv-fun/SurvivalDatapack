@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "title": "String Man",
+        "description": "Töte einen Irongolem mit Stärke Effekt.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:adventure/trade",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player",
+                    "effects": {
+                        "minecraft:strength": {
+                            "duration": {
+                                "min": 1,
+                                "max": 9999
+                            },
+                            "ambient": false,
+                            "visible": true
+                        }
+                    }
+                },
+                "entity": {
+                    "type": "minecraft:iron_golem"
+                }
+            }
+        }
+    }
+}

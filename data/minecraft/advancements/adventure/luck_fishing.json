@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fishing_rod"
+        },
+        "title": "Möge das Glück mit mir sein",
+        "description": "Enchante eine angel mit Luck of the Sea 3",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:story/enter_the_end",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:fishing_rod",
+                        "count": 1,
+                        "durability": {
+                            "min": 1,
+                            "max": 64
+                        },
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:luck_of_the_sea",
+                                "levels": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
