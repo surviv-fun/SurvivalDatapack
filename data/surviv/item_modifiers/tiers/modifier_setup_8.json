@@ -1,0 +1,6 @@
+[
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{TierValue:8,RandomModifier:-1,ModifierTier:4,Type:1}"
+    }
+]

@@ -1,0 +1,137 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{RandomModifier:\"Annoying\"}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{RandomModifier:\"Sluggish\"}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{RandomModifier:\"Shoddy\"}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{RandomModifier:\"Dangerous\"}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{RandomModifier:\"Unhappy\"}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{RandomModifier:\"Quick\"}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{RandomModifier:\"Murderous\"}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{RandomModifier:\"Savage\"}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{RandomModifier:\"Ruthless\"}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{RandomModifier:\"Careless\"}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{RandomModifier:\"Epic\"}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{RandomModifier:\"Legendary\"}"
+                    }
+                }
+            }
+        }
+    ]
+}

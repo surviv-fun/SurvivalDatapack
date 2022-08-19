@@ -1,0 +1,38 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "text": ""
+            },
+            {
+                "text": "Quick",
+                "color": "green",
+                "italic": false
+            },
+            {
+                "text": " +13% Movement Speed",
+                "color": "blue",
+                "italic": false
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{HasModifier:1b,ModifierTier:6,HideFlags:2}"
+    },
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "name": "",
+                "amount": 0.013,
+                "operation": "addition",
+                "slot": ["chest"]
+            }
+        ]
+    }
+]

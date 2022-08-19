@@ -1,0 +1,41 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "text": ""
+            },
+            {
+                "text": "Legendary",
+                "color": "aqua",
+                "italic": false
+            },
+            {
+                "text": " +1 Attack Damage",
+                "color": "blue",
+                "italic": false
+            },
+            {
+                "text": " +0.4 Attack Speed",
+                "color": "blue",
+                "italic": false
+            },
+            {
+                "text": " +2 Armor",
+                "color": "blue",
+                "italic": false
+            },
+            {
+                "text": "Melee Damage",
+                "color": "gray",
+                "italic": false
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{HasModifier:1b,ModifierTier:7}"
+    }
+]

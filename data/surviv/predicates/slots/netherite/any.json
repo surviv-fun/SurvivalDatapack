@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:netherite_sword", "minecraft:netherite_axe", "minecraft:netherite_pickaxe", "minecraft:netherite_shovel", "minecraft:netherite_hoe"]
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "offhand": {
+                            "items": ["minecraft:netherite_sword", "minecraft:netherite_axe", "minecraft:netherite_pickaxe", "minecraft:netherite_shovel", "minecraft:netherite_hoe"]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

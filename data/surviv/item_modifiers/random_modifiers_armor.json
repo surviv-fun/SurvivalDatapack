@@ -1,0 +1,182 @@
+[
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Hard\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Masked\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Armored\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Warding\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.08
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Jagged\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Thorned\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Angry\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Menacing\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.08
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Light\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Hasty\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Quick \"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Broken \"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Weak\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Heavy\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Wild\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Rash\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Violent\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"None \"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    }
+]

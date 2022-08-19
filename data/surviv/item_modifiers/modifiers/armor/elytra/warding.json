@@ -1,0 +1,55 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "text": ""
+            },
+            {
+                "text": "Warding",
+                "color": "aqua",
+                "italic": false
+            },
+            {
+                "text": " +4 Defense",
+                "color": "blue",
+                "italic": false
+            },
+            {
+                "text": " +2 Armor Toughness",
+                "color": "blue",
+                "italic": false
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{HasModifier:1b,ModifierTier:7,HideFlags:2}"
+    },
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.armor",
+                "name": "",
+                "amount": 4,
+                "operation": "addition",
+                "slot": ["chest"]
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.armor_toughness",
+                "name": "",
+                "amount": 2,
+                "operation": "addition",
+                "slot": ["chest"]
+            }
+        ]
+    }
+]

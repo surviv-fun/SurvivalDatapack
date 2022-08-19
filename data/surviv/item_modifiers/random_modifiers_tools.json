@@ -1,0 +1,192 @@
+[
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Sluggish\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Annoying\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Terrible\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Broken\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Unhappy\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Dull\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Dangerous\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Murderous\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Quick\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Savage\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Sharp\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Nasty\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Unpleasant\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Shoddy\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Ruthless\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Careless\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Legendary\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.05
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"Epic\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.05
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{RandomModifier:\"None\"}",
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+            }
+        ]
+    }
+]

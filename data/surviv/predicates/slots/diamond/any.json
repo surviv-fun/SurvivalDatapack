@@ -1,0 +1,29 @@
+[
+    {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["minecraft:diamond_sword", "minecraft:diamond_axe", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_hoe"]
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "offhand": {
+                            "items": ["minecraft:diamond_sword", "minecraft:diamond_axe", "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_hoe"]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "text": ""
+            },
+            {
+                "text": "Shoddy",
+                "color": "red",
+                "italic": false
+            },
+            {
+                "text": " -0.4 Attack Damage",
+                "color": "red",
+                "italic": false
+            },
+            {
+                "text": " -0.25 Attack Speed",
+                "color": "red",
+                "italic": false
+            },
+            {
+                "text": "Melee Damage",
+                "color": "gray",
+                "italic": false
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{HasModifier:1b,ModifierTier:2}"
+    }
+]

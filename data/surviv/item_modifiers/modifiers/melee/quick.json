@@ -1,0 +1,31 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "text": ""
+            },
+            {
+                "text": "Quick",
+                "color": "blue",
+                "italic": false
+            },
+            {
+                "text": " +0.2 Attack Speed",
+                "color": "blue",
+                "italic": false
+            },
+            {
+                "text": "Melee Damage",
+                "color": "gray",
+                "italic": false
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{HasModifier:1b,ModifierTier:5}"
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "text": ""
+            },
+            {
+                "text": "Savage",
+                "color": "blue",
+                "italic": false
+            },
+            {
+                "text": " +0.3 Attack Damage",
+                "color": "blue",
+                "italic": false
+            },
+            {
+                "text": " -0.1 Attack Speed",
+                "color": "red",
+                "italic": false
+            },
+            {
+                "text": "Melee Damage",
+                "color": "gray",
+                "italic": false
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{HasModifier:1b,ModifierTier:5}"
+    }
+]

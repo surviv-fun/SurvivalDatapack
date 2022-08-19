@@ -1,0 +1,43 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "text": ""
+            },
+            {
+                "text": "Menacing",
+                "color": "aqua",
+                "italic": false
+            },
+            {
+                "text": " +0.8 Attack Damage",
+                "color": "blue",
+                "italic": false
+            },
+            {
+                "text": "Melee Damage",
+                "color": "gray",
+                "italic": false
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{HasModifier:1b,ModifierTier:7,HideFlags:2}"
+    },
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "name": "",
+                "amount": 0.8,
+                "operation": "addition",
+                "slot": ["chest"]
+            }
+        ]
+    }
+]

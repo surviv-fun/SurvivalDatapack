@@ -1,0 +1,38 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "text": ""
+            },
+            {
+                "text": "Hard",
+                "color": "blue",
+                "italic": false
+            },
+            {
+                "text": " +1 Defense",
+                "color": "blue",
+                "italic": false
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{HasModifier:1b,ModifierTier:5,HideFlags:2}"
+    },
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.armor",
+                "name": "",
+                "amount": 1,
+                "operation": "addition",
+                "slot": ["chest"]
+            }
+        ]
+    }
+]
